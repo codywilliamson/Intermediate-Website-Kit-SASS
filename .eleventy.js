@@ -1,6 +1,7 @@
 // imports
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const { DateTime } = require('luxon');
+const htmlMinTransform = require('./src/transforms/html-min-transform.js');
 
 module.exports = function (eleventyConfig) {
 	// adds the official eleventy navigation plugin for a scalable navigation
